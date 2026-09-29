@@ -1,0 +1,7 @@
+[gd_resource type="Resource" script_class="Tipo" format=3 uid="uid://cybkjuh760ga7"]
+
+[ext_resource type="Script" uid="uid://m8c51xak54jb" path="res://scripts/recursos/tipo.gd" id="1_ptcki"]
+
+[resource]
+script = ExtResource("1_ptcki")
+metadata/_custom_type_script = "uid://m8c51xak54jb"

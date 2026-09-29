@@ -1,11 +1,14 @@
 class_name Classe
 extends Resource
 
+@export var nome: String
+
 @export var hp_max: float
 @export var hp: float
 @export var mana_max: float
 @export var mana: float
 @export var xp: float
+@export var next_lvl_xp: float
 
 @export var lvl: int
 
@@ -20,6 +23,7 @@ extends Resource
 @export var inventario: Array[Item] = []
 @export var magias: Array[Magia] = []
 
-@export var nome: String
-
 @export var arma_ini: Arma
+@export var arma_equip: Arma
+
+@export var efeito: Efeito

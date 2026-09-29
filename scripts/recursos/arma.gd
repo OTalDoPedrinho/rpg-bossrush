@@ -2,6 +2,7 @@ class_name Arma
 extends Item
 
 var crit_mult = 1.5
+
 @export var dano: float			#1~5
 @export var defesa: float		#1~5
 
