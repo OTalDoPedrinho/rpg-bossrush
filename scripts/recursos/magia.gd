@@ -1,10 +1,7 @@
 class_name Magia
-extends Resource
+extends Item
 
 var crit_mult = 1.5
-
-@export var nome: String
-@export var descricao: String
 
 @export var dano: float			#1~5
 @export var defesa: float		#1~5

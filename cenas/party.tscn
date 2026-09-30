@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://uqjnhycs4ta3"]
+
+[ext_resource type="Script" uid="uid://drhmg2khdjej3" path="res://scripts/party.gd" id="1_0bdl3"]
+[ext_resource type="Script" uid="uid://2hgoug5tf0mg" path="res://scripts/personagens/personagem.gd" id="2_0bdl3"]
+
+[node name="Party" type="Node2D" unique_id=510270]
+script = ExtResource("1_0bdl3")
+metadata/_custom_type_script = "uid://drhmg2khdjej3"
+
+[node name="Player" type="Node2D" parent="." unique_id=52389475]
+script = ExtResource("2_0bdl3")
+metadata/_custom_type_script = "uid://2hgoug5tf0mg"
+
+[node name="HP_PB" type="ProgressBar" parent="Player" unique_id=95637665]
+offset_right = 4.0
+offset_bottom = 27.0
+
+[node name="MN_PB" type="ProgressBar" parent="Player" unique_id=445281016]
+offset_right = 4.0
+offset_bottom = 27.0
