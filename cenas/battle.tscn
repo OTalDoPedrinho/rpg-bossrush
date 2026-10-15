@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://djx0fe6laly28"]
+
+[ext_resource type="PackedScene" uid="uid://b2herg5qmqmr6" path="res://cenas/battle_ui.tscn" id="1_5rmlj"]
+
+[node name="Battle" type="Node2D" unique_id=765283454]
+
+[node name="Control" parent="." unique_id=58246990 instance=ExtResource("1_5rmlj")]
+anchors_preset = 0
+anchor_right = 0.0
+anchor_bottom = 0.0
+grow_horizontal = 1
+grow_vertical = 1

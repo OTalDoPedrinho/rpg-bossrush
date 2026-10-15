@@ -5,8 +5,6 @@ extends Resource
 
 @export var hp_max: float
 @export var mana_max: float
-@export var xp: float
-@export var next_lvl_xp: float
 
 @export var atributos = {
 	"FORÇA": 10,		#dano fisico

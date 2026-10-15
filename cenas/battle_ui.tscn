@@ -1,0 +1,106 @@
+[gd_scene format=3 uid="uid://b2herg5qmqmr6"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_yf5fn"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_r2xfl"]
+bg_color = Color(0, 0, 0, 0.5882353)
+border_width_left = 10
+border_width_top = 10
+border_width_right = 10
+border_width_bottom = 10
+border_color = Color(0.48235294, 0.050980393, 0, 1)
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_v66vy"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+border_width_left = 10
+border_width_top = 10
+border_width_right = 10
+border_width_bottom = 10
+border_color = Color(0.48322314, 0.051411465, 0, 1)
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+
+[node name="Control" type="Control" unique_id=58246990]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="BG" type="TextureRect" parent="." unique_id=248695441]
+custom_minimum_size = Vector2(960, 540)
+layout_mode = 0
+offset_right = 960.0
+offset_bottom = 540.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="AçõesBG" type="TextureRect" parent="." unique_id=482857855]
+custom_minimum_size = Vector2(500, 150)
+layout_mode = 0
+offset_left = 412.0
+offset_top = 330.0
+offset_right = 960.0
+offset_bottom = 540.0
+
+[node name="Ações" type="GridContainer" parent="." unique_id=153796970]
+custom_minimum_size = Vector2(500, 150)
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -534.0
+offset_top = -187.0
+grow_horizontal = 0
+grow_vertical = 0
+columns = 2
+
+[node name="Atacar" type="Button" parent="Ações" unique_id=1113090367]
+custom_minimum_size = Vector2(250, 75)
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 35
+theme_override_styles/normal = SubResource("StyleBoxFlat_yf5fn")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_r2xfl")
+theme_override_styles/hover = SubResource("StyleBoxFlat_v66vy")
+text = "ATACAR"
+
+[node name="Magia" type="Button" parent="Ações" unique_id=197115165]
+custom_minimum_size = Vector2(250, 75)
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 35
+theme_override_styles/normal = SubResource("StyleBoxFlat_yf5fn")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_r2xfl")
+theme_override_styles/hover = SubResource("StyleBoxFlat_v66vy")
+text = "MAGIA"
+
+[node name="Item" type="Button" parent="Ações" unique_id=645913142]
+custom_minimum_size = Vector2(250, 75)
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 35
+theme_override_styles/normal = SubResource("StyleBoxFlat_yf5fn")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_r2xfl")
+theme_override_styles/hover = SubResource("StyleBoxFlat_v66vy")
+text = "ITEM"
+
+[node name="Membros" type="Button" parent="Ações" unique_id=970394092]
+custom_minimum_size = Vector2(250, 75)
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 35
+theme_override_styles/normal = SubResource("StyleBoxFlat_yf5fn")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_r2xfl")
+theme_override_styles/hover = SubResource("StyleBoxFlat_v66vy")
+text = "MEMBROS"

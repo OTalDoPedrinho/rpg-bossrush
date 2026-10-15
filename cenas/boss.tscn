@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://hosf2m6gqyut"]
+
+[ext_resource type="Script" uid="uid://bkf3mvctnsi60" path="res://scripts/personagens/boss.gd" id="1_k5t0i"]
+
+[node name="Boss" type="Node2D" unique_id=317992024 node_paths=PackedStringArray("barra_hp", "barra_mana")]
+script = ExtResource("1_k5t0i")
+barra_hp = NodePath("HP_PB")
+barra_mana = NodePath("MN_PB")
+metadata/_custom_type_script = "uid://bkf3mvctnsi60"
+
+[node name="HP_PB" type="ProgressBar" parent="." unique_id=475652953]
+offset_right = 4.0
+offset_bottom = 27.0
+
+[node name="MN_PB" type="ProgressBar" parent="." unique_id=847465324]
+offset_right = 4.0
+offset_bottom = 27.0
